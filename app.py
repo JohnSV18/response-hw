@@ -34,7 +34,7 @@ def favorite_dessert(users_dessert):
 def story(adjective, noun):
     """Displays short story with two stringst that the user puts on url"""
     return f'The {adjective} {noun} was the most comforting thing for us'
-    
+
 
 @app.route('/multiply/<number1>/<number2>')
 def multiply(number1, number2):
@@ -47,7 +47,7 @@ def multiply(number1, number2):
     total = number1 * number2
     final = str(total)
 
-    return f'{number1} times {number2} equals {final}'
+    return f'{number1} times {number2} is {final}'
 
 
 if __name__ == '__main__':
