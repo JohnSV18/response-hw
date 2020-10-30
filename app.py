@@ -47,7 +47,7 @@ def multiply(number1, number2):
     total = number1 * number2
     final = str(total)
 
-    return f'{number1} times {number2} is {final}'
+    return f'{number1} times {number2} is {final}.'
 
 
 if __name__ == '__main__':
